@@ -1,0 +1,32 @@
+.config
+*.o
+*.pyc
+
+# gtags
+GTAGS
+GRTAGS
+GPATH
+
+# MacOS directory files
+.DS_Store
+
+# cache dir
+.cache/
+
+# VS Code Settings
+.vscode
+
+# managed_components
+managed_components
+
+# Components Unit Test Apps files
+components/**/build/
+components/**/build_*_*/
+components/**/sdkconfig
+components/**/sdkconfig.old
+
+# ESP-IDF default build directory name
+build
+
+# lock files for examples and components
+dependencies.lock
